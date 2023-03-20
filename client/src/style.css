@@ -1,0 +1,48 @@
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.title {
+  text-align: center;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio {
+  display: block;
+}
+
+label {
+  margin: 0;
+}
+
+.game {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.amount {
+  position: fixed;
+  right: 10%;
+  top: 10%;
+}
+
+.button {
+  width: 40%;
+}
+
+.delete {
+  position: absolute;
+  right: 2%;
+  top: 5%;
+}
