@@ -27,10 +27,10 @@ Once both commands have been executed, your project should be up and running.
 
 The following endpoints are available for data manipulation:
 
-1. GET `/questions` - Returns one random question.
-2. GET `/questions/:id` - Returns a specific question based on the given ID.
-3. POST `/questions` - Adds a new question to the database.
-4. PUT `/questions/:id` - Updates an existing question.
+1. GET `/questions` – Returns one random question.
+3. POST `/questions` – Adds a new question to the database.
+3. PATCH `/questions/:id` – Updates an existing question.
+4. DELETE `/questions/:id` – Delete an existing question.
 
 ## Contributing
 
