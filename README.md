@@ -30,7 +30,7 @@ The following endpoints are available for data manipulation:
 1. GET `/questions` – Returns one random question.
 3. POST `/questions` – Adds a new question to the database.
 3. PATCH `/questions/:id` – Updates an existing question.
-4. DELETE `/questions/:id` – Delete an existing question.
+4. DELETE `/questions/:id` – Deletes an existing question.
 
 ## Contributing
 
