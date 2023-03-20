@@ -100,7 +100,6 @@ function App() {
               <h1 className="title pt-4">{randomElement.title}</h1>
 
               <h2 className="amount">Points: {amount}</h2>
-              <button onClick={handleDeleteQuestion} className="btn btn-warning w-25 delete">Delete question</button>
 
               <div className="box">
               {randomElement.options.map(option => (
@@ -139,21 +138,30 @@ function App() {
             </>
             )}
 
-            <div className='d-flex justify-content-around'>
-            <button 
-              disabled={!answers.length || isUserAnswered} 
-              className="btn button btn-primary"
-              onClick={handleClickAnswer} 
-            >
-              Send
-            </button>
-            <button
-              onClick={handleNewQuestion} 
-              className="button btn btn-primary"
-              disabled={!isUserAnswered}
-            >
-              Next question
-            </button>
+            <div className='d-flex flex-column gap-3 align-items-center'>
+
+              {!isUserAnswered 
+              ? (
+                <button 
+                  disabled={!answers.length || isUserAnswered} 
+                  className="btn button btn-primary"
+                  onClick={handleClickAnswer} 
+                >
+                  Send
+                </button>
+              )
+            : (
+              <button
+                onClick={handleNewQuestion} 
+                className="button btn btn-primary"
+              >
+                Next question
+              </button>
+            )}
+            
+            
+
+            <button onClick={handleDeleteQuestion} className="btn btn-warning w-25">Delete question</button>
             </div>
           </div>
         </div>
