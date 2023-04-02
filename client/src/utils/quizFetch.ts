@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:4000';
+const BASE_URL = 'https://api-quiz-game-production.up.railway.app/questions';
 
 
 // To have autocompletion and avoid mistypes
