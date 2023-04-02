@@ -2,7 +2,7 @@
   "name": "client",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://official-artem.github.io/Quiz_game/",
+  "homepage": ".",
   "type": "module",
   "scripts": {
     "dev": "vite",
