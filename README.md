@@ -1,41 +1,29 @@
-# Quiz
+# Welcome to my Quiz Game!
 
-This is a simple quiz game built using React and Vite. The project has been styled using Bootstrap to ensure that the game has a visually appealing interface. TypeScript has been used to reduce the likelihood of errors occurring within the codebase.
+[Demo](https://official-artem.github.io/quiz-game/)
 
-The API has been built using Express.js and MongoDB, with the addition of Mongoose to facilitate data manipulation. The API endpoints have been created to handle various CRUD (Create, Read, Update, Delete) operations for the questions.
+## Introduction
 
-## Installation
+I'm excited to share with you my latest project - an educational quiz game built using React and Vite. I chose to use Vite because of its fast build times and ease of use, making the development process smooth and enjoyable. I also had the opportunity to work with the mongoDB database, which was a new experience for me and allowed me to gain valuable insights into database management.
 
-To run the project, please follow these steps:
+## Features
 
-1. Clone the repository to your local machine.
-2. Install the dependencies by running the command `npm install`.
-3. Start the API by running `npm run api`.
-4. Start the client by running `npm run client`.
+For the styling, I decided to use Bootstrap, which helped me create a visually appealing and responsive design for the game. The game allows users to:
 
-## Running the Project
+* Answer questions
+* Remove questions they don't like
+* Keep track of their scores
 
-To run the project, follow these steps:
+Users earn 2 points for every correct answer and lose 3 points for every incorrect answer.
 
-1. Open a terminal window and run the following command: `npm run api`
+## Accessibility
 
-2. Open another terminal window and run the following command: `npm run client`
+I'm committed to ensuring that my project is accessible to everyone. Therefore, I've made sure to adhere to best practices in terms of accessibility, so that users with disabilities can also enjoy the game.
 
-Once both commands have been executed, your project should be up and running.
+## Licensing
 
-## API Endpoints
+Finally, I've licensed this project under the GPL-3.0 license, which means that it's open source and free to use by anyone. You can find the details of the license in the LICENSE file.
 
-The following endpoints are available for data manipulation:
+## Feedback
 
-1. GET `/questions` – Returns one random question.
-3. POST `/questions` – Adds a new question to the database.
-3. PATCH `/questions/:id` – Updates an existing question.
-4. DELETE `/questions/:id` – Deletes an existing question.
-
-## Contributing
-
-If you would like to contribute to the project, please feel free to fork the repository and submit a pull request. Any contributions are greatly appreciated!
-
-## License
-
-This project is licensed under the MIT license. Please refer to the `LICENSE` file for more information.
+If you have any feedback or suggestions for the project, feel free to open an issue on the project's GitHub page.
