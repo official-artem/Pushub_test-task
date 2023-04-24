@@ -1,4 +1,4 @@
-const BASE_URL = 'https://api-quiz-game-production.up.railway.app';
+const BASE_URL = 'https://mute-building-production.up.railway.app';
 
 
 // To have autocompletion and avoid mistypes

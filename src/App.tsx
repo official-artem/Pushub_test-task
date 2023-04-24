@@ -24,9 +24,7 @@ function App() {
     getResponse();
   },[newQuestion])
 
-  const isSendAnswer = {
-      backgroundColor: isCorrectAnswer
-    }
+  console.log(newQuestion)
 
   const handleAddAnswer = (event: React.ChangeEvent<HTMLInputElement>) => {
     const { value, type } = event.target
